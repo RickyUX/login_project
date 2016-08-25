@@ -1,6 +1,6 @@
 from system.core.controller import *
 import sys #sys.stderr.write('text_you_want_to_print\n')
-class Logins(Controller):
+class Login(Controller):
     def __init__(self, action):
         super(Login, self).__init__(action)
         self.load_model('LoginModel')
